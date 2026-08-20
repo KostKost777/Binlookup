@@ -3,10 +3,6 @@
 
 enum ErrCodes
 {
-    BAD_SIZE = 1,
-    BAD_ROOT = 2,
-    BAD_PARENT = 4,
-    BAD_DATA = 8
 };
 
 void PrintTree( Node* node, FILE* graphiz_file);
